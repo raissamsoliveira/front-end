@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Formulários HTML</h1>
+        <hr>
+        <!-- Para HTTPm o nétodo utilizado seria o post e não get. -->
+        <form action="" method="get">
+            <br>
+
+            <div>
+                <label for="texto">Nome: </label>
+                <!-- <input type="text" id="texto" placeholder="Digite seu nome.." value="Valor inicial"> -->
+                <input type="text" id="texto" name="nome">
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="e-mail" id="email">
+            </div>
+
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+
+            <div>
+                <lobel for="arquivo">Dowload:</label>
+                    <input type="file" name="download" id="download">
+            </div>
+
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br>
+            <div>
+                <label for="select">Selecione:</label>
+                <select name="select" id="select">
+                    <option value="" disabled selected >Selecione uma das opções..</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div>
+                <input type="submit" value="Enviar fornulário" id="submit" name="submit">
+            </div>
+            
+            
+        </form>
+    </main>
+</body>
+</html>

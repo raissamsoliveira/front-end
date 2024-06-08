@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabela</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="1">
+                <!-- Cabeçalho da tabela  -->
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>e-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo da Tabela -->
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td>
+                        <td>caroldanvers@gmail.com</td>
+                        <td>12345</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@gmail.com</td>
+                        <td>23456</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@gmail.com</td>
+                        <td>34567</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="financeiro"> 
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <!-- Mescla de linha através de um atributo dentro da tag td -->
+                        <td rowspan="2">01/06/2024</td>
+                        <td>Combust[ivel</td>
+                        <td>Etanol</td>
+                        <td>R$100</td>
+                    </tr>
+
+                    <tr>
+                        <!-- <td>01/06/2024</td>  | Essa linha é excuída devido a mescla na célula anterior. --> 
+                        <td>Padaria</td>
+                        <td>Gulosiemas</td>
+                        <td>R$34,67</td>
+                    </tr>
+
+                    <tr>
+                        <td>03/06/2024</td>
+                        <td>Contas gerais</td>
+                        <td>Cartão de Crédito</td>
+                        <td>457,89</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+    
+</body>
+</html>
