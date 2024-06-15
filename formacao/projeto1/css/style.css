@@ -1,0 +1,85 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1100px;
+    position:relative;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+.featured-image {
+    text-align: center;
+}
+
+.featured-image img {
+    width: 100%; /* Ajusta a largura da imagem para 100% da largura do contêiner */
+    max-width: 600px; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.discography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.discography-container li {
+    height: 30px;
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.img-bold img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+}
