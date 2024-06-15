@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inline</title>
+
+    <!-- 3 - Internal Style -->
+    <!-- <style>
+        p{
+            /* color: brown;
+            font-size: 20px; */
+        }
+    </style> -->
+
+    <!-- 4 - External CSS -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- 1- Inline CSS -->
+    <h1 style="color: blue;">Mudar cor com o Inline</h1>    
+    <h1 style="color: blueviolet;">Outro título</h1>
+
+    <!-- 2- Mútiplas Regras -->
+    <h1 style="color: brown; font-size: 50px; border-bottom: 1px solid gray;">Mudar cor e tamanho da fonte</h1>
+
+    <!-- 3 - Internal CSS -->
+    <p>E fui modificado utilizando o Internal CSS</p>
+
+    <!-- 4 - External CSS -->
+    <h3>Título criado e estilizado com o External CSS</h3>
+
+    <!-- 8 - Classes -->
+    <p class = "paragraph">Algum texto</p> 
+    <p class = "paragraph">Algum texto 2</p>
+    <p class = "paragraph">Algum texto 3</p>
+
+    <!-- 9 - Id's -->
+    <h1 id="exclusive-title">Este é um título com id</h1>
+
+    <!--  20 - BG Image-->
+    <h1 class="bg-image">Este título tem uma imagem</h1>
+
+    <!-- 21 - centralizar img de bg -->
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <!-- padding individual -->
+    <div class="padding-individual">
+        <p>Este elemento contém padding individual</p>
+    </div>
+
+    <!-- shorthand properties -->
+    <div class="shorthand-padding">
+        <p>Este elemento contém shorthand padding!</p>
+    </div>
+
+    <!-- padding e width -->
+    <div class="without-border-box">
+        <p>Algum conteúdo</p>
+    </div>
+    <div class="border-box">
+        <p>Algum conteúdo 2.</p>
+    </div>
+
+    <!-- text align  -->
+     <p class="text-align">Este parágrafo está centralizado com o text-align.</p>
+     <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Texto qualquer</p>
+     </div>
+
+     <!-- Text Decoration -->
+    <div>
+        <p class="underline">Eu tenho um underline</p>
+        <p class="line-trough">Eu tenho um risco</p>
+        <a href="https://www.google.com" class="remove-underline">Removi meu underline</a>
+    </div>
+    
+    <!-- Display -->
+    <div class="inline-box">a</div>
+    <div class="inline-box">b</div>
+    <div class="inline-box">c</div>
+    <span class="block">Teste</span>
+    <span class="block">Teste</span>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+/* External CSS */
+body{
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: crimson;
+}
+
+/* Classes */
+.paragraph {
+    background-color: black;
+    color: rgb(11, 130, 130);
+    padding: 5px;
+}
+
+/* id */
+#exclusive-title {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+/* bg img */
+.bg-image {
+    background-image: url("../img/bridge.jpeg");
+    padding: 20px;
+}
+
+/* bg centralizar imagem */
+.not-centered-bg,
+.centered.bg {
+    height: 300px;
+    width: 300px;
+    background-image: url("../img/bridge.jpeg");
+}
+.centered.bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Padding Individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+    background-color: #234;
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
+    padding: 6px 12px 18px 24px;
+}
+
+/* border-box */
+.without-border-box {
+    background-color: #444 ;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #444 ;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Desafio 02 */
+#desafio-css {
+    background-color: #010944;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: #d2e621 solid 3px;
+    outline: #fe6a08 solid 3px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+/* Text Align */
+.titulo-1{
+    background-color: #fff;
+    border: none;
+}
+
+.text-align {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid blue;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: olive;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{ 
+    background-color: #234;
+    display: block ;
+    margin: 10px;
+}
