@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Currículo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./icons/fontawesome-free-6.5.2-web/css/all.css">
+</head>
+<body>
+    <div class="content">
+        <aside>
+            <img src="./img/cs2.png" alt="">
+
+            <h1><span>CS</span> Form</h1>
+        </aside>
+
+        <main>
+
+            <header>
+                <a href="index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+                <h2>Cadastro de <span>Currículo</span></h2>
+            </header>
+
+            <form action="" method="post" enctype="multipart/form-data">
+            <!-- <form action =""> -->
+                <label for="input-name">Nome</label>
+                <input type="text" id="input-name" name="name">
+
+                <label for="input-cargo">Cargo de Atuação</label>
+                <input type="text" id="input-cargo" name="cargo">
+
+                <label for="input-curriculum">Importar Currículo</label>
+                <input type="file" id="input-curriculum" name="curriculum" accept="application/pdf" hidden>
+                <button type="button" id="custom-button">Escolher Arquivo</button>
+                <span id="custom-text">Nenhum arquivo escolhido.</span>
+            </form>
+
+            <div class="cadastrar-btn">
+                <a href="">Cadastrar</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const realFileBtn = document.getElementById("input-curriculum");
+        const customBtn = document.getElementById("custom-button");
+        const customTxt = document.getElementById("custom-text");
+
+        customBtn.addEventListener("click", function() {
+            realFileBtn.click();
+        });
+
+        realFileBtn.addEventListener("change", function() {
+            if (realFileBtn.value) {
+                customTxt.innerHTML = realFileBtn.value.split("\\").pop();
+            } else {
+                customTxt.innerHTML = "Nenhum arquivo escolhido.";
+            }
+        });
+    </script>
+</body>
+</html>

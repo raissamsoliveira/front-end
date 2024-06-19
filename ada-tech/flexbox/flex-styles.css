@@ -1,0 +1,27 @@
+main {
+    padding: 7rem 0;
+}
+
+.boxes {
+    height: calc(100vh - 14rem);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center; 
+    align-items:center;
+    align-content:center;
+}
+
+.box {
+    min-height: 10px;
+    min-width: 20px;
+    padding: 1.5rem;
+    border: 5px solid red;
+    border-radius: 0.4rem;
+    background-color: darkcyan;
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+}
