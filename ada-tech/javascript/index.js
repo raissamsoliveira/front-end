@@ -1,0 +1,1 @@
+console.log('Integração do JS com o HTML')
